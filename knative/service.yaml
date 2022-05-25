@@ -11,7 +11,7 @@ spec:
     spec:
       containerConcurrency: 0
       containers:
-        - image: docker.io/avik6028/go-tekton-sample:9b4f53a0de542d2a6cbe5a078a1bd7a9309b090b
+        - image: docker.io/avik6028/go-tekton-sample:3d7255c68217fc631793dc65f556f56a216846d6
           name: user-container
           ports:
             - containerPort: 8080
