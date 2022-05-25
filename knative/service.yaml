@@ -7,11 +7,11 @@ spec:
   template:
     metadata:
       creationTimestamp: null
-      name: hello-world-e817210a97c9fac12053df2bbc32f5e35ebcf77f
+      name: hello-world-00e204a88d1fe90d60c710bab70a677adffee8a7
     spec:
       containerConcurrency: 0
       containers:
-        - image: docker.io/avik6028/go-tekton-sample:3d7255c68217fc631793dc65f556f56a216846d6
+        - image: docker.io/avik6028/go-tekton-sample:00e204a88d1fe90d60c710bab70a677adffee8a7
           name: user-container
           ports:
             - containerPort: 8080
